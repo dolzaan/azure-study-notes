@@ -1,45 +1,44 @@
-# azure-study-notes
+☁️ Introdução ao Microsoft Azure
+📝 Resumo
+O Microsoft Azure é a plataforma de computação em nuvem da Microsoft, oferecendo uma variedade de serviços como máquinas virtuais, bancos de dados, armazenamento, redes, inteligência artificial, DevOps, e muito mais.
+Permite criar, testar, implantar e gerenciar aplicativos e serviços em uma rede global de datacenters da Microsoft.
 
-Este repositório contém resumos, anotações e dicas práticas sobre a plataforma Microsoft Azure.
-O objetivo é servir como material de apoio para estudos, certificações e futuras implementações em projetos.
+📌 Anotações
+Lançamento: 2010 (originalmente como Windows Azure).
 
-✨ Conteúdo
-Organizado em seções:
+Modelo de serviços:
 
-Fundamentos da Azure: conceitos básicos, gerenciamento de recursos, regiões e zonas.
+IaaS (Infraestrutura como Serviço): Gerenciamento de servidores, VMs, redes.
 
-Serviços Principais: Compute, Storage, Networking e mais.
+PaaS (Plataforma como Serviço): Serviços prontos para hospedagem de apps (ex: Web Apps, Functions).
 
-Segurança: identidade, gerenciamento de acesso, boas práticas.
+SaaS (Software como Serviço): Aplicações completas na nuvem (ex: Microsoft 365).
 
-DevOps e Automação: CI/CD, Azure Pipelines, automação com Azure CLI.
+Regiões: Azure está disponível em mais de 60 regiões globalmente.
 
-Dicas Rápidas: comandos úteis, truques para otimizar o uso da Azure e dicas de certificação.
+Principais componentes:
 
-🛠️ Como Usar
-Navegue pelas pastas para encontrar o tema desejado.
+Azure Portal: Interface web gráfica para gerenciamento dos recursos.
 
-Cada arquivo .md contém:
+Azure CLI: Interface de linha de comando para automação e gerenciamento.
 
-Um resumo sobre o serviço/conceito.
+Azure Resource Manager (ARM): Plataforma de gerenciamento de recursos.
 
-Anotações com detalhes e exemplos importantes.
+Billing (Cobrança):
 
-Dicas práticas para uso no dia a dia.
+Baseado em consumo (pay-as-you-go).
 
-Exemplo de caminhos:
+Possui opções de instâncias reservadas (por 1 ou 3 anos) para desconto.
 
-bash
-Copiar
-Editar
-azure-study-notes/02-servicos-principais/azure-compute.md
-azure-study-notes/03-seguranca/azure-ad.md
-📚 Indicações de Estudo
-Documentação Oficial Azure
+🔥 Dicas
+Utilize Azure Free Tier para explorar a plataforma sem custos iniciais.
 
-Microsoft Learn
+Sempre crie Resource Groups para organizar e gerenciar os recursos de forma lógica.
 
-Certificações Azure
+Acompanhe gastos pelo Azure Cost Management para evitar surpresas na cobrança.
+
+Explore a ferramenta Azure Advisor para recomendações de boas práticas de custo, segurança, performance e alta disponibilidade.
+
 
 ⚡ Sobre
 Este repositório é atualizado conforme o avanço dos estudos e práticas no ambiente Azure.
